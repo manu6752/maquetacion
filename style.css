@@ -2,12 +2,19 @@
 html{font-size: 62,5%;}
 
 .contenedortitulo{
-    width: 100%;
+    width: 75%;
     height: 5rem;
-    margin-left: -4rem;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.5rem;
     font-weight: bolder; color:rgb(13, 13, 95); 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenedortitulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav{
@@ -16,16 +23,10 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.contenedortitulo{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .listatitulo__item {display: inline-blocK}
 .listatitulo__item a{text-decoration: none}
 .listatitulo__item a:hover{color: rgb(241, 131, 183);}
-.listatitulo__item a:active{border: solid; color: darkblue;}
+.listatitulo__item a:active{border: solid; color: rgb(89, 89, 238); width: 2rem; height: 1rem;}
 
 .imagenfondo{
     width: 1200px;
@@ -70,6 +71,63 @@ h1{
 
 .button1:hover{color: whitesmoke; background-color: rgb(55, 38, 93);}
 
+h2{ margin-top: 1.5rem;
+    font-family: Helvetica, sans-serif;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.texto{font-family: Helvetica, sans-serif;
+    color: rgb(100, 105, 105);
+    text-align: center;
+}
+
+.parent{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    text-align: center;
+    width: 14rem;
+    height: 18rem;
+}
+
+h3{font-family: Helvetica, sans-serif;
+    color: rgb(65, 63, 63);
+    text-align: center;
+    font-size: 1rem;    
+}
+
+.box > p{
+    font-size: 16px;
+    padding-top: 2rem;
+    font-family: Helvetica, sans-serif;
+    color: rgb(100, 105, 105);
+    text-align: center;
+ }
+
+ #box2 > p{
+     margin-top: -1.3rem;
+ }
+
+.video{
+    background-color: rgb(227, 229, 255);
+    width: 100%;
+    height: 28rem;
+    color: #2B3372;
+    font-size: 2.3rem;
+    font-family: lato-light,lato,sans-serif;
+    text-align: center;
+    margin-top: -5px;
+    padding-top: 1.4rem;
+}
 
 .foot1{
     width: 100%;
@@ -82,7 +140,7 @@ h1{
     flex: wrap;
     justify-content: center;
     align-items: center;
-
+    padding-left: -2.5rem;
 }
 
 .button3{
@@ -94,13 +152,14 @@ h1{
     width: 10.4rem;
     height: 3.55rem;
     border: transparent;
-    border-radius: 2rem;  
+    border-radius: 2rem;
+    margin-left: 2.5rem; 
 }
 
 .button3:hover{color: whitesmoke; background-color: rgb(55, 38, 93);}
 
 .foot2{
-    width: 70%;
+    width: 100%;
     height: 6.5rem;
     background-color: rgb(90, 90, 246);
     color: white;
@@ -108,7 +167,7 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -123,13 +182,17 @@ h1{
 .listafooter__item a:hover{color: rgb(241, 131, 183);}
 
 .foot3{
-    width: 25%;
+    width: 8%;
     height: 6.5rem;
     background-color: rgb(90, 90, 246);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+
+.img1{width: 1rem; height: 1rem;}
+.img2{width: 1rem; height: 1rem;}
+.img3{width: 1rem; height: 1rem;}
 
 .foot4{
     width: 100%;
