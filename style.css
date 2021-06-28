@@ -1,14 +1,11 @@
 *{box-sizing: border-box; padding: 0; margin: 0}
-html{font-size: 62,5%;}
+html{font-size: 62.5%;}
 
 .contenedortitulo{
     width: 75%;
-    height: 5rem;
+    height: 8rem;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1.5rem;
-    font-weight: bolder; color:rgb(13, 13, 95); 
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .contenedortitulo{
@@ -18,13 +15,12 @@ html{font-size: 62,5%;}
 }
 
 nav{
-    font-size: 1rem;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.listatitulo__item {display: inline-blocK}
-.listatitulo__item a{text-decoration: none}
+.listatitulo__item {display: inline-block;}
+.listatitulo__item a{color:rgb(13, 13, 95); font-size: 18px; text-decoration: none}
 .listatitulo__item a:hover{color: rgb(241, 131, 183);}
 /* .listatitulo__item a:active{border: solid; color: rgb(89, 89, 238); width: 2rem; height: 1rem;} */
 
@@ -35,38 +31,42 @@ nav{
 }
 
 h1{
-    padding-top: 3.2rem;
-    margin-left: 9.9rem;
+    padding-top: 5rem;
+    margin-left: 16.3rem;
     color: #2B3372;
-    font-size: 3.3rem;
+    font-size: 5rem;
     font-family: lato-light,lato,sans-serif;
 }
 
-.texto-img{margin-left: 9.9rem; color: #2B3372; font-family: Arial,Helvetica,sans-serif;}
+.texto-img{font-size: 21px; margin-left: 17rem; color: #2B3372; font-family: Arial,Helvetica,sans-serif;}
 
 .barra{
     position: absolute;
     margin-top: -0.35rem;
-    margin-left: 10.4rem;
-    background-color: rgb(250, 171, 185);
-    width: 23.5rem;
-    height: 0.4rem;
+    margin-left: 17rem;
+    background-color: rgb(253, 159, 170);
+    width: 35.5rem;
+    height: 0.65rem;
     opacity: 0.7;
 }
 
 .button1{
     color: whitesmoke;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
     font-weight: bold;
     position: absolute;
-    margin: 2.35rem;
-    margin-left: 10.1rem;
+    margin: 4.5rem;
+    margin-left: 16rem;
     background-color: rgb(83, 95, 229);
-    width: 10.4rem;
-    height: 3.55rem;
+    width: 16rem;
+    height: 5.5rem;
     border: transparent;
-    border-radius: 2rem;  
+    border-radius: 3rem;  
 }
 
 .button1:hover{color: whitesmoke; background-color: rgb(55, 38, 93);}
@@ -75,12 +75,13 @@ h2{ margin-top: 1.5rem;
     font-family: Helvetica, sans-serif;
     color: rgb(65, 63, 63);
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 4.5rem;
 }
 
 .texto{font-family: Helvetica, sans-serif;
     color: rgb(100, 105, 105);
     text-align: center;
+    font-size: 2rem;
 }
 
 .parent{
@@ -88,14 +89,14 @@ h2{ margin-top: 1.5rem;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    height: 20rem;
+    height: 31.5rem;
     display: flex;
     justify-content: space-around;
 }
 
 .box{
     text-align: center;
-    width: 14rem;
+    width: 25rem;
     height: 18rem;
 }
 
@@ -120,14 +121,19 @@ h3{font-family: Helvetica, sans-serif;
 .video{
     background-color: rgb(227, 229, 255);
     width: 100%;
-    height: 28rem;
+    height: 44rem;
     color: #2B3372;
-    font-size: 2.3rem;
+    font-size: 4.5rem;
     font-family: lato-light,lato,sans-serif;
     text-align: center;
-    margin-top: -5px;
-    padding-top: 1.4rem;
+    margin-top: -3px;
+    padding-top: 20px;
 }
+
+iframe{position: relative;
+    margin-top: 2.5rem;
+}
+
 
 .tit-como{font-weight: bold; font-size: 50px; font-family: Arial, Helvetica, sans-serif arial; color: white;}
 .texto-como{font-size: 18px; font-family: Arial, Helvetica, sans-serif; color: white;}
@@ -135,7 +141,7 @@ h3{font-family: Helvetica, sans-serif;
 .parent2{
     background-color: rgb(83, 95, 229);;
     width: 100%;
-    height: 27rem;
+    height: 39rem;
     text-align: center;
 }
 
@@ -176,19 +182,26 @@ h3{font-family: Helvetica, sans-serif;
 
 .salario{
     width: 100%;
-    height: 19rem;
+    height: 32rem;
     text-align: center;
     margin-top: 2rem;
 }
 
 .cuesta{color: #333333; font-size: 50px; font-family: arial;}
-.bien{color: #2B3372; font-size: 20px; font-family: arial;}
-.sal{color:#535FE5; font-size: 96px; font-family: arial;}
-.nuevo{color: #2B3372; font-size: 20px; font-family: arial;}
+.bien{color: #2B3372; font-size: 20px; font-family: arial;margin-top: 10px;}
+.sal{color:#535FE5; font-size: 96px; font-family: arial;margin-top: 30px;}
+.nuevo{color: #2B3372; font-size: 20px; font-family: arial;margin-top: 15px;}
 
 .button2{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 281px;
     height: 45px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#535FE5;
     color: white;
     border: transparent;
@@ -198,14 +211,29 @@ h3{font-family: Helvetica, sans-serif;
 }
 
 .button2:hover{color: white; background-color: rgb(55, 38, 93);}
+.button2:active{border: solid; border-radius: 20px;border-color: rgb(83, 95, 229);}
+
+.contactos{
+    width: 100%;
+    height: 346px;
+    background-color: #e3e5ff;
+    text-align: center;
+}
+
+.contactos > span{color: #333333; font-size: 40px; font-family: Arial, Helvetica, sans-serif;}
+
+.empresas{margin-top: 25px;}
+
+.empresas > img:hover{opacity: 0.6;}
 
 .foot1{
     width: 100%;
-    height: 6.5rem;
+    height: 11.5rem;
     background-color: rgb(83, 95, 229);
     color: white;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
     display: flex;
     flex: wrap;
     justify-content: center;
@@ -215,22 +243,27 @@ h3{font-family: Helvetica, sans-serif;
 
 .button3{
     color: rgb(83, 95, 229);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1.8rem;
     font-weight: bold;
     background-color: whitesmoke;
-    width: 10.4rem;
-    height: 3.55rem;
+    width: 181px;
+    height: 69px;
     border: transparent;
-    border-radius: 2rem;
+    border-radius: 3rem;
     margin-left: 2.5rem; 
 }
 
 .button3:hover{color: whitesmoke; background-color: rgb(55, 38, 93);}
+.button3:active{border: solid thin; border-radius: 2rem;border-color: white;}
 
 .foot2{
     width: 100%;
-    height: 5.8rem;
+    height: 120px;
     background-color: rgb(83, 95, 229);
     color: white;
     font-weight: bold;
@@ -248,21 +281,21 @@ h3{font-family: Helvetica, sans-serif;
 }
 
 .listafooter__item {display: inline-blocK;}
-.listafooter__item a{text-decoration: none; color: white;}
+.listafooter__item a{text-decoration: none; color: white; font-size: 18px;}
 .listafooter__item a:hover{color: rgb(241, 131, 183);}
 
 .foot3{
     width: 8%;
-    height: 5.8rem;
+    height: 120px;
     background-color: rgb(83, 95, 229);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.img1{width: 1rem; height: 1rem;}
-.img2{width: 1rem; height: 1rem;}
-.img3{width: 1rem; height: 1rem;}
+.img1{width: 1.5rem; height: 1.5rem;}
+.img2{width: 1.5rem; height: 1.5rem;}
+.img3{width: 1.5rem; height: 1.5rem;}
 
 .foot4{
     width: 100%;
